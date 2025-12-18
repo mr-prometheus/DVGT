@@ -24,14 +24,14 @@
 DVGT proposes a universal framework for driving geometry perception. Unlike conventional driving models that are tightly coupled to specific sensor setups or require ground-truth poses, our model leverages spatial-temporal attention to process unposed image sequences directly. By decoding global geometry in the ego-coordinate system, DVGT achieves metric-scaled dense reconstruction without LiDAR alignment, offering a robust solution that adapts seamlessly to diverse vehicles and camera configurations.
 
 <p align="center">
-    <img src="./assets/figure_1.jpg" width="100%">
+    <img src="./assets/teaser.png" width="100%">
 </p>
 
 ## Experimental Results
 DVGT significantly outperforms existing models on various scenarios. As shown below, our method (red) demonstrates superior accuracy ($\delta < 1.25$ for ray depth estimation) on 3D scene reconstruction across all evaluated datasets.
 
 <p align="center">
-<img src="./assets/figure_2.jpg" alt="Radar Chart Performance" width="45%">
+<img src="./assets/experiments.jpg" alt="Radar Chart Performance" width="45%">
 </p>
 
 
