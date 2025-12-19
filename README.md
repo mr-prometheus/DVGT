@@ -1,7 +1,7 @@
 <div align="center">
 <h1>DVGT: Driving Visual Geometry Transformer</h1>
 
-<a href="https://arxiv.org/abs/2512.xxxxx"><img src="https://img.shields.io/badge/arXiv-2512.xxxxx-b31b1b" alt="arXiv"></a>
+<a href="https://arxiv.org/abs/2512.16919"><img src="https://img.shields.io/badge/arXiv-2512.16919-b31b1b" alt="arXiv"></a>
 <a href="https://wzzheng.net/DVGT"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
 <a href='https://huggingface.co/RainyNight/DVGT'><img src='https://img.shields.io/badge/🤗%20Hugging%20Face-DVGT-ffd21e'></a>
 
@@ -175,7 +175,7 @@ If you find this project helpful, please consider citing the following paper:
 @article{zuo2025dvgt,
       title={DVGT: Driving Visual Geometry Transformer}, 
       author={Zuo, Sicheng and Xie, Zixun and Zheng, Wenzhao and Xu, Shaoqing and Li, Fang and Jiang, Shengyin and Chen, Long and Yang, Zhi-Xin and Lu, Jiwen},
-      journal={arXiv preprint arXiv:2512.xxxxx},
+      journal={arXiv preprint arXiv:2512.16919},
       year={2025}
 }
 ```
