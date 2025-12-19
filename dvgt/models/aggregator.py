@@ -59,7 +59,7 @@ class Aggregator(nn.Module):
         qk_norm=True,
         rope_freq=100,
         init_values=0.01,
-        max_frames_for_temporal_pos_embed=24,
+        max_frames_for_temporal_pos_embed=48,
     ):
         super().__init__()
 
