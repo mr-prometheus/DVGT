@@ -156,3 +156,6 @@ logs
 output/
 ckpt/
 data_annotation/
+
+models/
+*.out*
