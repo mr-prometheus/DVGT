@@ -19,7 +19,7 @@ conda activate dvgt
 
 # Step 1: Download DINOv3 weights if not already present (run once)
 # Uncomment the following line on first run:
-# python download_v3_weights.py --hf_token "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" --method huggingface_hub
+# python download_v3_weights.py --hf_token "" --method huggingface_hub
 
 # Step 2: Run inference
 # CUDA_LAUNCH_BLOCKING=1 python inference.py \
