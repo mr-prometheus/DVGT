@@ -159,3 +159,4 @@ data_annotation/
 
 models/
 *.out*
+outputs

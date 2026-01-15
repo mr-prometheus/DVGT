@@ -53,7 +53,7 @@ class Aggregator(nn.Module):
         proj_bias=True,
         ffn_bias=True,
         patch_embed="dinov3_vitl16",
-        dino_v3_weight_path="ckpt/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
+        dino_v3_weight_path="/home/de575594/Deepan/CV/geolocalization/vggt-long/dvgt/DVGT/models/DVGT/dinov3_vitl16_pretrain_lvd1689m.pth",
         aa_order=["intra_view", "cross_view", "cross_frame"],
         aa_block_size=1,
         qk_norm=True,
@@ -64,8 +64,8 @@ class Aggregator(nn.Module):
         super().__init__()
 
         # self.patch_embed = torch.hub.load('./dinov3', patch_embed, source='local', weights=dino_v3_weight_path)   # Load model code and weight
-        self.patch_embed = torch.hub.load('./dinov3', patch_embed, source='local')      # Only load model code
-        # Disable gradient updates for mask token
+        self.patch_embed = torch.hub.load('./dinov3', patch_embed, source='local', weights='/home/de575594/Deepan/CV/geolocalization/vggt-long/dvgt/DVGT/models/DVGT/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth')
+
         if hasattr(self.patch_embed, "mask_token"):
             self.patch_embed.mask_token.requires_grad_(False)
 
