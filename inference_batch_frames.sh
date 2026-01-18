@@ -2,7 +2,7 @@
 #SBATCH -J DVGT_Inference
 #SBATCH --mem=24GB  
 #SBATCH --gres=gpu:1 -C gmem24
-#SBATCH --output=runs/dvgt_inference_frames.out
+#SBATCH --output=runs/dvgt_inference_frames_clips.out
 
 # Manually add your conda environment to PATH
 export PATH="/home/de575594/.conda/envs/dvgt/bin:$PATH"
